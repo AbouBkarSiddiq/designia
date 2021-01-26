@@ -9,8 +9,7 @@ export default function Skills() {
   let history = useHistory()
   return (
     <div style={{ background: `transparent url(${Background2}) no-repeat scroll center`, backgroundSize: "" }} className='h-screen'>
-      <Navbar />
-      <div className='flex flex-col md:flex-row w-full'>
+      <div className='flex flex-col md:flex-row w-full h-full'>
         <div className='flex justify-between md:justify-evenly flex-wrap'>
           <div>
             <div className='absolute'>
