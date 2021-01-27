@@ -18,10 +18,10 @@ export default function Navbar() {
       <div class="hidden md:flex md:items-center md:w-auto w-full" id="menu">
         <nav>
           <ul class="md:flex items-center justify-between text-base text-white pt-4 md:pt-0">
-            <li><Link to='/' class="md:p-4 py-3 font-sans font-bold text-xl leading-7 px-0 block">ABOUT</Link></li>
-            <li><Link to='/skills' class="md:p-4 py-3 font-sans font-bold text-xl leading-7 px-0 block">SKILLS</Link></li>
-            <li><Link to='/portfolio'class="md:p-4 py-3 font-sans font-bold text-xl leading-7 px-0 block">PORTFOLIO</Link></li>
-            <li><Link to='/contact' class="md:p-4 py-3 font-sans font-bold text-xl leading-7 px-0 block md:mb-0 mb-2">CONTACT</Link></li>
+            <li><Link to='/' class="md:p-4 py-3 font-sans font-bold text-xl leading-7 px-0 lg:px-8 block">ABOUT</Link></li>
+            <li><Link to='/skills' class="md:p-4 py-3 font-sans font-bold text-xl leading-7 lg:px-8 px-0 block">SKILLS</Link></li>
+            <li><Link to='/portfolio'class="md:p-4 py-3 font-sans font-bold text-xl leading-7 lg:px-8 px-0 block">PORTFOLIO</Link></li>
+            <li><Link to='/contact' class="md:p-4 py-3 font-sans font-bold text-xl leading-7 lg:px-8 px-0 block md:mb-0 mb-2">CONTACT</Link></li>
           </ul>
         </nav>
       </div>
