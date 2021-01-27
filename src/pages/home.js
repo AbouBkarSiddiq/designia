@@ -20,14 +20,9 @@ export default function Home() {
           <img src={placeholders} alt='' className='flex ' />
           <div className='flex w-full justify-end md:h-1/6 md:items-end md:px-24 md:mt-8 px-10'>
             <h1 className='text-white md:text-2xl cursor-pointer'><span onClick={() => history.push('/portfolio')}>Next page</span></h1>
-            <img src={arrow} alt='' className='ml-2 mb-1 w-4 md:w-8' />
+            <img src={arrow} alt='' className='ml-2 mb w-4 md:w-8' />
           </div>
         </div>
-
-        {/* <div className='flex justify-end'>
-          <h1 className='text-white cursor-pointer'><span onClick={() => history.push('/skills')}>Next page</span></h1>
-          <img src={arrow} alt='' className='ml-1' />
-        </div> */}
       </div>
     </div>
   )
