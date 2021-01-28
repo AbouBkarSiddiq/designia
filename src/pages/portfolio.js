@@ -1,17 +1,17 @@
 import React from 'react'
 import { useHistory } from 'react-router-dom'
-import Group4 from '../assets/Group4.png'
+import Background4 from '../assets/Background4.png'
 import glasses from '../assets/glasses.png'
 import wrist from '../assets/wrist.png'
 import watch from '../assets/watch.png'
 import clock from '../assets/clock.png'
 import chair from '../assets/chair.png'
-import download from '../assets/download.png'
+import paper from '../assets/paper.png'
 import arrow from '../assets/arrow.svg'
 export default function Portfolio() {
   let history = useHistory()
   return (
-    <div style={{ background: `transparent url(${Group4}) no-repeat scroll center`, backgroundSize: "" }} className='h-screen flex flex-1 items-center justify-center'>
+    <div style={{ background: `transparent url(${Background4}) no-repeat scroll center`, backgroundSize: "" }} className='h-screen flex flex-1 items-center justify-center'>
       <div className='flex flex-col md:px-24'>
         <div className='flex justify-center items-center md:w-11/12 md:h-11/12'>
           <div>
@@ -32,7 +32,7 @@ export default function Portfolio() {
             <img src={chair} alt='' className='' />
           </div>
           <div>
-            <img src={download} alt='' className='' />
+            <img src={paper} alt='' className='' />
           </div>
         </div>
         <div className='flex justify-between lg:px-20 md:-mt-4'>
